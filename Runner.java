@@ -2,7 +2,7 @@ public class Runner {
     public static void main(String[] args){
         int option = 1;
         try{
-            option = Integer.getInteger(args[0]);
+            option = Integer.parseInt(args[0]);
         }catch(Exception e){};
         if (option == 1){
             System.out.println("Testing Quark validity (\"!\" indicates something that is supposed to be true):");
