@@ -229,8 +229,8 @@ public class Runner {
                 if(option == 18) {
                     System.out.println("Testing Higgs equality (\"!\" indicates something that is supposed to be true):");
                     Higgs he1 = new Higgs();
-                    Boson be6 = new Boson(1, 0, 125110,  0);
-                    Boson be8 = new Boson(1, 0, 123000,  0);
+                    Boson be6 = new Boson(0, 0, 125110,  0);
+                    Boson be8 = new Boson(0, 0, 123000,  0);
                     System.out.println(he1.equals(be6)+"!");
                     System.out.println(be6.equals(he1)+"!");
                     System.out.println(he1.equals(be8));
